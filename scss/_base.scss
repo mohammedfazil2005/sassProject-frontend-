@@ -1,0 +1,69 @@
+
+$yellow-Color:yellow;
+$black-color:black;
+
+
+// storing as array!!
+$colors:(
+    1:blue,
+    2:green,
+    3:red
+
+);
+
+// storing as for string interpolation
+
+$bg:'background-color';
+$textalign:'text-align';
+
+
+// storing in array without key
+
+$colors-second:gray yellow red;
+
+
+@mixin commonFlexLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin commonFlexColumnLayout{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin headerSericeButton{
+    padding: 2px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: seagreen;
+    border: none;
+    color: white;
+
+
+    @media screen and (max-width:679px) {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: outfit;
+    
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0;
+    padding: 0;
+}
