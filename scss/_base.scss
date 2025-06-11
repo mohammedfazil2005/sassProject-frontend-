@@ -54,6 +54,20 @@ $colors-second:gray yellow red;
 
 }
 
+@mixin commonBoxRedButton{
+    background-color: rgba(255, 0, 0, 0.548);
+    padding: 2px 10px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-size: 14px;
+    border: none;
+
+}
+
+
+
+
 
 
 *{
